@@ -1,0 +1,25 @@
+$width: 1180px;
+.header {
+    background-color: #269926;
+}
+
+.container {
+    width: $width;
+    margin: 0 auto;
+}
+
+.header-links {
+    width: calc($width / 3);
+    display: flex;
+    justify-content: center;
+
+    & {
+        .header-link {
+            margin: 20px;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 700;
+        }
+    }
+}
